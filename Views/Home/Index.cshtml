@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div ng-controller="treeController">
+    <div data-angular-treeview="false"
+         data-tree-id="mytree"
+         data-tree-model="List"
+         data-node-id="id"
+         data-node-label="name"
+         data-node-children="children">
+    </div>
+    <div >         
+        <img class="displayed" src="{{mytree.currentNode.path}}">
+    <div>
+</div>
+

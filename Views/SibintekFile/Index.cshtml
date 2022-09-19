@@ -1,0 +1,23 @@
+@using sibintek_test_task.Models
+@model IEnumerable<SibintekFile>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+<body>
+    <h2>files</h2>
+    @{
+        foreach(var file in Model) {
+            <div>
+                <h2> File name: @file.name </h2>
+            </div>
+        }
+    }
+</body>
+</html>

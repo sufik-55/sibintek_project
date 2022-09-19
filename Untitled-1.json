@@ -1,0 +1,20 @@
+[
+  {
+    "children":[{"children":[],"id":4,"name":"file.img","parentid":1}],
+    "id":1,
+    "name":"folder1",
+    "parentid":null
+  },
+  {
+    "children":[{"children":[],"id":5,"name":"file.txt","parentid":2}],
+    "id":2,
+    "name":"folder2",
+    "parentid":null
+  },
+  {
+    "children":[{"children":[],"id":6,"name":"file.conf","parentid":3}],
+    "id":3,
+    "name":"folder3",
+    "parentid":null
+  }
+]
